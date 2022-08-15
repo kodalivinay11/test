@@ -7,7 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     name: 'manifest-updater'
     steps:
-      - name: latest manifest updater
-        shell: pwsh
-        run: |
-          Write-Host 'Hello, World!'
+      - name: latest manifest updater        
+        run: echo "This step will always run"
