@@ -7,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     name: 'manifest-updater'
     steps:
+      - uses: actions/checkout@v2
       - name: latest manifest updater        
         run: echo "This step will always run"
