@@ -1,0 +1,13 @@
+name: update manifest
+on:
+  schedule:
+    - cron:  '0 0 * * 1-5'
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    name: 'manifest-updater'
+    steps:
+      - name: latest manifest updater
+        shell: pwsh
+        run: |
+          Write-Host 'Hello, World!'
