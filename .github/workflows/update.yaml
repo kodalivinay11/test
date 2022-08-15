@@ -1,7 +1,7 @@
 name: update manifest
 on:
   schedule:
-    - cron:  '* * * * *'
+    - cron:  '* * 1 * *'
 jobs:
   update-manifest:
     runs-on: ubuntu-latest
