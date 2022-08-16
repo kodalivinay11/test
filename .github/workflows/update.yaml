@@ -2,6 +2,7 @@ name: update manifest
 on:
   schedule:
     - cron:  '* * 1 * *'
+  workflow_dispatch:
 jobs:
   update-manifest:
     runs-on: ubuntu-latest
