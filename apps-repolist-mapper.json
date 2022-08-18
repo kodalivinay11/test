@@ -1,0 +1,20 @@
+{
+	"vinay-advanced-search": {
+			"fileName": "Manifest.json",
+			"configFolder": "advanced-search"
+	},
+	"vinay-manage-business-license": [
+		{
+			"fileName": "Manifest.json",
+			"configFolder": "manage-business-license"
+		},
+		{
+			"fileName": "Manifest.OperationalPermit.json",
+			"configFolder": "manage-operational-permit"
+		},
+		{
+			"fileName": "Manifest.Rental.json",
+			"configFolder": "manage-rental-property"
+		}
+	]
+}
