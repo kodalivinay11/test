@@ -9,6 +9,8 @@ jobs:
     name: 'manifest-updater'
     steps:
       - uses: actions/checkout@v2
+        with:
+          path: ./test
       - name: latest manifest updater  
       - shell: pwsh      
         run: |
