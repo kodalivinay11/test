@@ -11,5 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: latest manifest updater 
         shell: pwsh
+        env:
+          action_path: "./test"
         run: |
          .\updater.ps1 
