@@ -9,9 +9,14 @@ jobs:
     name: 'manifest-updater'
     steps:
       - uses: actions/checkout@v2
-        with:
-          path: ./test
-      - name: latest manifest updater  
-      - shell: pwsh      
+      - name: latest manifest updater     
         run: |
          .\updater.ps1 
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    name: 'manifest-updater'
+    steps:
+      - uses: actions/checkout@v2
+      - name: latest manifest updater        
+        run: echo "This step will always run"
