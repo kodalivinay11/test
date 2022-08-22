@@ -5,6 +5,7 @@ Param
 )
 
 try{
+. "./statement.ps1"
     Write-Host "START : Reading repo list"
     $repoList = $(Get-Content $repoListFile | ConvertFrom-JSON).PSObject.Properties
     Write-Host "Current repo list with harness folder : " $repoList
