@@ -9,6 +9,7 @@ jobs:
     name: 'manifest-updater'
     steps:
       - uses: actions/checkout@v2
-      - name: latest manifest updater     
+      - name: latest manifest updater 
+        shell: pwsh
         run: |
          .\updater.ps1 
